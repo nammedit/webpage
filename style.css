@@ -1,0 +1,177 @@
+
+.title {
+  text-align: center;
+  font-style: bold;
+  font-family: "Courier New", sans-serif;
+  font-size: 40px;
+  letter-spacing: 5px;
+  background-color: black;
+  color: white;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  height: 50px;
+  margin-top: 0;
+}
+
+.subtitle{
+  text-align: center;
+  font-family: "Courier New", sans-serif;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.dropdown li{
+  color: black;
+  line-height: 70px;
+  font-size: 17px;
+
+  padding-right: 15px;
+  padding-left: 15px;
+
+  margin-left: 30px;
+
+  border-style: solid;
+  border-color: black;
+  border-width: 0px;
+
+  display: inline-block;
+  font-family: "Courier New", sans-serif;
+  letter-spacing: 7px;
+  background-color: white;
+  background-origin: border-box;
+}
+
+.dropdown{
+  text-align: center;
+  margin-right: 40px;
+  margin-bottom: 10px;
+}
+.dropdown a:visited{
+  color: black;
+}
+.dropdown a:hover{
+  background-color: black;
+  color: white;
+}
+
+.plugs {
+  position:fixed;
+  bottom:0px;
+  left:85%;
+}
+.plugs li{
+  display: inline;
+}
+.plugs li img{
+  max-width: 20%;
+}
+
+.martinImage img{
+  max-width:50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.about_text{
+  border-color: black;
+  padding-bottom: 70px;
+  font-weight: lighter;
+  position: absolute;
+  left: 450px;
+  right: 450px;
+  margin-top: 20px;
+}
+.about_text p{
+  text-align: center;
+  padding-top: 30px;
+  margin: 0;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+  text-justify: auto;
+  line-height: 30px;
+  color: black;
+}
+
+.title a:visited{
+  color: white;
+}
+a{
+  text-decoration: none;
+}
+
+
+.works{
+  text-align: center;
+  font-family: "Courier New";
+}
+h1{
+  margin-top: 100px;
+  font-size: 30px;
+  background-color: black;
+  font-weight: 2;
+  letter-spacing: 3px;
+  margin-right: 80px;
+  font-family: "Fatura", sans-serif;
+  color: white;
+}
+.works p{
+  font-size: 30px;
+  font-style: italic;
+}
+.works p2{
+  font-size: 15px;
+  margin-bottom: 100px;
+}
+.works li{
+  display: inline;
+}
+
+
+.pressefoto img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  width: 2000px;
+  align-content: center;
+  float: right;
+  margin-right: 20px;
+  padding-right: 0px;
+  border: 0px solid;
+  filter: saturate(20%);
+  background-color: black;
+  z-index: -1000;
+  padding-right: 10px;
+  padding-bottom: 80px;
+  padding-top: 30px;
+  padding-left: 3000px;
+  background-size: 100% auto;
+}
+
+
+
+
+.players ul{
+  display: inline;
+  text-align: center;
+  margin-bottom: 80px;
+  font-family: "Courier New", sans-serif;
+  font-size: 20px;
+}
+.players li{
+  margin-bottom: 80px;
+}
+iframe{
+  height: 150;
+  width: 75%;
+}
+
+.contact{
+  margin-top: 110px;
+  text-align: center;
+  letter-spacing: 4px;
+}
